@@ -4,7 +4,7 @@ import { Container } from './styles';
 import api from '../../services/api';
 import { useState } from 'react';
 
-interface Food {
+interface FoodData {
   id: number
   name: string
   description: string
@@ -14,8 +14,8 @@ interface Food {
 }
 
 interface FoodProps {
-  food: Food
-  handleEditFood: (food: Food) => void
+  food: FoodData
+  handleEditFood: (food: FoodData) => void
   handleDelete: (id: number) => void
 
 }
