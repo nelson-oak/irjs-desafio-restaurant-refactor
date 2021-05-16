@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { FiCheckSquare } from 'react-icons/fi';
+import { FiCheckSquare, FiEdit2 } from 'react-icons/fi';
 
 import { Form } from './styles';
 import Modal from '../Modal';
@@ -33,24 +33,24 @@ function ModalAddFood({ isOpen, setIsOpen, handleAddFood}: ModalAddFoodProps) {
         <Input
           name="image"
           placeholder="Cole o link aqui"
-          icon={undefined}
+          icon={FiEdit2}
         />
 
         <Input
           name="name"
           placeholder="Ex: Moda Italiana"
-          icon={undefined}
+          icon={FiEdit2}
         />
         <Input
           name="price"
           placeholder="Ex: 19.90"
-          icon={undefined}
+          icon={FiEdit2}
         />
 
         <Input
           name="description"
           placeholder="Descrição"
-          icon={undefined}
+          icon={FiEdit2}
         />
 
         <button type="submit" data-testid="add-food-button">
