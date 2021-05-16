@@ -15,7 +15,7 @@ O intuito é fixar o conteúdo de refatoração e migração de javascript pra t
 Após clonar o projeto, é necessário atualizar as dependências.
 
 ### Comandos para baixar dependências e iniciar a aplicação
-u
+
 ```bash
 yarn
 yarn dev
