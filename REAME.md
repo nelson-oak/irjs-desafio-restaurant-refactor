@@ -7,6 +7,11 @@ O intuito é fixar o conteúdo de refatoração e migração de javascript pra t
 
 | Número | Funcionalidade |
 | - | - |
+| 1 | Listar pratos |
+| 2 | Editar pratos |
+| 3 | Alterar status ativo/inativo do prato |
+| 4 | Adicionar um prato |
+| 5 | Remover um prato |
 
 ## Recursos
 
